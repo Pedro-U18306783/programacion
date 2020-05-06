@@ -19,7 +19,7 @@ public class circulo {
 		Scanner teclado =new Scanner(System.in);
 		radio=teclado.nextDouble();
 		//area del circulo
-		areaCirculo=PI*radio*radio;
+		areaCirculo=(Math.pow(radio,2));
 		//mostrar resultado
 		System.out.println("Area del Circulo es: "+areaCirculo);
 		
