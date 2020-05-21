@@ -9,10 +9,16 @@ public class Ejercicio3 {
 		
 		Scanner scan=new Scanner(System.in);
 		//declaracion de variables
-		 int  num,impar=0,promediopar=0,par=0,residuo,i;
-		 
-		 for(i=1;i<=270;i++) {
+		 int  num,impar,promediopar,par,residuo,i;
+		 //inicializamos
+		 par=0;
+		 promediopar=0;
+		 impar=0;
+		 i=1;
+		 //for(i=1;i<=270;i++) {
+		 while(i<=270) {
 			 System.out.println("Ingrese el NUM "+i+":");
+			 i++;
 			 num=scan.nextInt();
 			 residuo=num%2;
 			 	if(residuo==0) {
