@@ -21,7 +21,7 @@ public class Ejercicio2 {
 			
 			suma+=num;
 			
-		}while(c<num);
+		}while(c<=num);
 		
 		System.out.println(suma);
 		
