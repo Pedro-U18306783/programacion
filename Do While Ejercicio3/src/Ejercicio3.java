@@ -24,7 +24,7 @@ public class Ejercicio3 {
 			
 		}while(contador<num);
 		
-		System.out.println(suma/num);
+		System.out.println("El promedio es: " + suma/num);
 		
 
 	}
