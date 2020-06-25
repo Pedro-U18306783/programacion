@@ -14,9 +14,27 @@ public class Main {
 		
 		
 		System.out.println(arbolito.tipo);
-		System.out.println(arbolito.cantidadHojas+"hojas");
-		System.out.println(arbolito.antiguedad+"años");
-		System.out.println(arbolito.altura+"metros");
+		System.out.println(arbolito.cantidadHojas+" hojas");
+		System.out.println(arbolito.antiguedad+" años");
+		System.out.println(arbolito.altura+" metros");
+		
+		System.out.println("--------------------------------------------");
+		System.out.println("--------------------------------------------");
+		System.out.println("--------------------------------------------");
+		System.out.println("--------------------------------------------");
+		System.out.println("--------------------------------------------");
+		
+		Humano humanito=new Humano();
+		
+		
+		humanito.hablar();
+		humanito.comer();
+		humanito.correr();
+		
+		System.out.println("Mido "+humanito.altura+ " metros");
+		System.out.println("Soy " +humanito.caracter);
+		System.out.println("Tengo "+humanito.edad+ " años");
+		System.out.println("Mi genero es "+humanito.genero);
 		
 		
 
